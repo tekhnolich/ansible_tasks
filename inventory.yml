@@ -1,0 +1,10 @@
+web:
+  hosts:
+    54.188.237.29
+  vars:
+    domain: mysite.com
+    ansible_user: ubuntu
+    connection: ssh
+    sudo: true
+    ansible_ssh_private_key_file: ~/.ssh/idrsa
+    ansible_sudo_pass: pass********
